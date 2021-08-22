@@ -1,0 +1,2 @@
+materials\models\weapons\sfgrenade\sf_grenade_v_blue.vmt
+materials\models\weapons\sfgrenade\sf_glow.vmt

@@ -1,0 +1,1 @@
+materials\models\cso2\hats\headcrab\att_h_headcrab.vmt

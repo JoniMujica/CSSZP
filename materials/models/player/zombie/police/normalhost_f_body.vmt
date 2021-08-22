@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+{
+
+         $baseTexture "models\player\zombie\police\normalhost_f_body"
+        $bumpmap "models\player\zombie\police\normalhost_f_body_normal"
+
+	$alphatest 1
+	$nocull 1
+
+	"$phong"			1
+	"$phongboost"		1.5
+	"$phongexponent"		50
+	"$phongFresnelboost"	2
+	"$phongFresnelexponent"	3
+	"$phongtint"   		"[0.65 0.65 0.65]"
+
+	"$rimlight"		1
+	"$rimlightexponent"	10
+	"$rimlightboost"		.7
+	"$rimmask"		0
+}

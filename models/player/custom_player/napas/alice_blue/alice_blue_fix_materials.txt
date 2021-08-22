@@ -1,0 +1,2 @@
+materials\models\player\custom_player\napas\alice_blue\alice_body-blue.vmt
+materials\models\player\custom_player\napas\alice_blue\alice_head.vmt

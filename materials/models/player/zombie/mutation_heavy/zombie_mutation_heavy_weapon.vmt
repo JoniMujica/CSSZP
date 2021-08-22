@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/player/zombie/mutation_heavy/zombie_mutation_heavy_weapon"
+	"$bumpmap"		"models/player/zombie/mutation_heavy/zombie_mutation_heavy_weapon_nomal"
+
+
+	"$phong"			1
+	"$phongboost"		1.5
+	"$phongexponent"		50
+	"$phongFresnelboost"	2
+	"$phongFresnelexponent"	3
+	"$phongtint"   		"[0.65 0.65 0.65]"
+
+	"$rimlight"		1
+	"$rimlightexponent"		8
+	"$rimlightboost"		0.7
+	"$rimmask"		0
+	
+
+
+}

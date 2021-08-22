@@ -1,0 +1,3 @@
+materials\models\weapons\sgdrill\$0b_sgdlight.vmt
+materials\models\weapons\sgdrill\$0b_sgdlightline.vmt
+materials\models\weapons\sgdrill\SG_drill_v.vmt

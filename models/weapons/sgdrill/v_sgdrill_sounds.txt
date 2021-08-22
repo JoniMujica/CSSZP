@@ -1,0 +1,4 @@
+sound/weapons\sgdrill_idle.mp3
+sound/weapons\sgdrill_clipout.mp3
+sound/weapons\sgdrill_clipin.mp3
+sound/weapons\sgdrill_draw.mp3

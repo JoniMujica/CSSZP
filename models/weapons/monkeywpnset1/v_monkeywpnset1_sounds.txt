@@ -1,0 +1,7 @@
+sound/weapons\m134_spindown.mp3
+sound/weapons\monkeyswpnset1_clipout.mp3
+sound/weapons\monkeyswpnset1_clipout1.mp3
+sound/weapons\monkeyswpnset1_clipout2.mp3
+sound/weapons\monkeyswpnset1_clipin.mp3
+sound/weapons\monkeyswpnset1_fire_ready.mp3
+sound/weapons\m134_spinup.mp3

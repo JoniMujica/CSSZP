@@ -1,0 +1,7 @@
+materials\models\player\zombie\shared\hands\long\CSO_Girl_Hand_long.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_malelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\CSO_HighQ_Hand__Long_512.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_malelong.vmt
+materials\models\weapons\lightning_lz_1\hair_p.vmt

@@ -1,0 +1,1 @@
+materials\models\cso2\hats\cowboy\att_h_cowboy02.vmt

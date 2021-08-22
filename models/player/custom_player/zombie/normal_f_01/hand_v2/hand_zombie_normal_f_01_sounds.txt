@@ -1,0 +1,13 @@
+sound/zombie/zombieclaw/zombie_infection_female.mp3
+sound/zombie/zombieclaw/npc_zombie_female01_idle.mp3
+sound/zombie/zombieclaw/npc_zombie_female01_idle.mp3
+sound/zombie/zombieclaw/zombi_swing_1.mp3
+sound/zombie/zombieclaw/zombi_swing_2.mp3
+sound/zombie/zombieclaw/player_zombie_normal_female_attack1.mp3
+sound/zombie/zombieclaw/player_zombie_normal_female_attack2.mp3
+sound/zombie/zombieclaw/zombi_attack_1.mp3
+sound/zombie/zombieclaw/zombi_attack_2.mp3
+sound/zombie/zombieclaw/zombi_swing_3.mp3
+sound/zombie/zombieclaw/zombi_attack_1.mp3
+sound/zombie/zombieclaw/zombi_attack_2.mp3
+sound/zombie/zombieclaw/npc_zombie_female01_idle.mp3

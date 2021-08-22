@@ -1,0 +1,1 @@
+materials\models\player\zombie\zombie_bomb\npc_a_zombie_bomb_01.vmt

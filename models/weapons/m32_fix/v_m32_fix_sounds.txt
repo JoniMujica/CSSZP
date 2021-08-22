@@ -1,0 +1,3 @@
+sound/weapons\m32_start_reload.mp3
+sound/weapons\m32_insert.mp3
+sound/weapons\m32_after_reload.mp3

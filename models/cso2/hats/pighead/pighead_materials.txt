@@ -1,0 +1,1 @@
+materials\models\cso2\hats\pighead\att_h_pighead.vmt

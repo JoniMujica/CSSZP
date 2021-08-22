@@ -1,0 +1,4 @@
+sound/weapons/sfsmg_clipout1.mp3
+sound/weapons/sfsmg_clipin1.mp3
+sound/weapons/sfsmg_clipin2.mp3
+sound/weapons/sfsmg_draw.mp3

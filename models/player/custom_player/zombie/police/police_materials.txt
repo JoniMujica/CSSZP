@@ -1,0 +1,4 @@
+materials\models\player\zombie\police\normalhost_f_hat.vmt
+materials\models\player\zombie\police\normalhost_f_arm.vmt
+materials\models\player\zombie\police\normalhost_f_face.vmt
+materials\models\player\zombie\police\normalhost_f_body.vmt

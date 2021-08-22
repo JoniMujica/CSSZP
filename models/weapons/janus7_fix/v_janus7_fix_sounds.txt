@@ -1,0 +1,10 @@
+sound/weapons/mg3_open.mp3
+sound/weapons\mg3_clipout.mp3
+sound/weapons\mg3_clipin.mp3
+sound/weapons\mg3_close.mp3
+sound/weapons\janus7_change1.mp3
+sound/weapons\janus7_change2.mp3
+sound/weapons\mg3_open.mp3
+sound/weapons\mg3_clipout.mp3
+sound/weapons\mg3_clipin.mp3
+sound/weapons\mg3_close.mp3

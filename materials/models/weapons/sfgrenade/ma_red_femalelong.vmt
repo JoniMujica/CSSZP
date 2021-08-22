@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  "models\player\zombie\shared\hands\long\ma_red_femalelong"
+    "$bumpmap"      "models/player/zombie/shared\hands\long\ma_bluered_femalelong_normal"
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[0.02 0.02 0.02]"
+    "$phongalbedotint" "1"
+    "$halflambert" "1"
+}

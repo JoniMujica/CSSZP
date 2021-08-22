@@ -1,0 +1,3 @@
+materials\models\player\zombie\zombie_f\normal_f_hand.vmt
+materials\models\player\zombie\zombie_f\normal_f_hair.vmt
+materials\models\player\zombie\zombie_f\normal_f_body.vmt

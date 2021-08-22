@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\blaster/Frame SF Gun D"
+"$bumpmap" "models\weapons\blaster/Frame SF Gun N"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.05 0.05 0.05]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

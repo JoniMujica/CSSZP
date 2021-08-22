@@ -1,0 +1,1 @@
+materials\models\weapons\skull11\skull11_v.vmt

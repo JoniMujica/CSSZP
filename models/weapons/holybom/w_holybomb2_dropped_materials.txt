@@ -1,0 +1,2 @@
+materials\models\weapons\holybom\holywater.vmt
+materials\models\weapons\holybom\holywater_f.vmt

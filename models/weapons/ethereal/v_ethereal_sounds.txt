@@ -1,0 +1,2 @@
+sound/weapons/ethereal_reload.mp3
+sound/weapons/ethereal_draw.mp3

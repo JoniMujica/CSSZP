@@ -1,0 +1,8 @@
+sound/weapons/airburster_idle.mp3
+sound/weapons\airburster_shoot_end.mp3
+sound/weapons\airburster_clipout.mp3
+sound/weapons\airburster_clipin1.mp3
+sound/weapons\airburster_clipin2.mp3
+sound/weapons\airburster_clipin3.mp3
+sound/weapons\airburster_clipin4.mp3
+sound/weapons\airburster_draw.mp3

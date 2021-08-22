@@ -1,0 +1,2 @@
+materials\models\weapons\janus7_fix\janus7_eyes.vmt
+materials\models\weapons\janus7_fix\janus7_v.vmt

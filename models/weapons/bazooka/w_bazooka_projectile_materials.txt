@@ -1,0 +1,1 @@
+materials\models\weapons\bazooka\Rocket_d.vmt

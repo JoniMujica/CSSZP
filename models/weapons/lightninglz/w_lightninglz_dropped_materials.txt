@@ -1,0 +1,2 @@
+materials\models\weapons\lightning_lz_1\hair_p.vmt
+materials\models\weapons\lightning_lz_1\lightzg_p.vmt

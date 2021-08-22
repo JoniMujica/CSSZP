@@ -1,0 +1,9 @@
+sound/weapons\janus11_insert.mp3
+sound/weapons\janus11_after_reload.mp3
+sound/weapons\janus11_draw.mp3
+sound/weapons\janus11_insert.mp3
+sound/weapons\janus11_after_reload.mp3
+sound/weapons\janus11_draw.mp3
+sound/weapons\janus11_draw.mp3
+sound/weapons/janus11_change1.mp3
+sound/weapons/janus11_change2.mp3

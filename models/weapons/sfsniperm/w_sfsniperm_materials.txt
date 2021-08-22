@@ -1,0 +1,1 @@
+materials\models\weapons\sfsniperm\sfsniperm_v.vmt

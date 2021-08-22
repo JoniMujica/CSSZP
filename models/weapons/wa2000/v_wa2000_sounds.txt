@@ -1,0 +1,4 @@
+sound/weapons\wa2000_clipout1.mp3
+sound/weapons\wa2000_clipin1.mp3
+sound/weapons\wa2000_clipin2.mp3
+sound/weapons\wa2000_boltpull.mp3

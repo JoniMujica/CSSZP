@@ -1,0 +1,1 @@
+materials\models\weapons\airburster\air_burster_v.vmt

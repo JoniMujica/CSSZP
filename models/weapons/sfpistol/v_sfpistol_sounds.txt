@@ -1,0 +1,5 @@
+sound/weapons\sfpistol_idle.mp3
+sound/weapons\sfpistol_draw.mp3
+sound/weapons\sfpistol_clipout.mp3
+sound/weapons\sfpistol_clipin.mp3
+sound/weapons\sfpistol_shoot_end.mp3

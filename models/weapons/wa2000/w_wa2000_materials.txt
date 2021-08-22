@@ -1,0 +1,1 @@
+materials\models\weapons\wa2000\WA2000_512.vmt

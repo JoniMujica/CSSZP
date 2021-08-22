@@ -1,0 +1,1 @@
+materials\models\weapons\m32_fix\m32mgl-vari.vmt

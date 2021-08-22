@@ -1,0 +1,1 @@
+materials\models\weapons\gatlingm\volcano_minor_v.vmt

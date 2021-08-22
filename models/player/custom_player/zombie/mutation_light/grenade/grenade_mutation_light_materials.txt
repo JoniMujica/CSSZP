@@ -1,0 +1,4 @@
+materials\models\player\zombie\froggrenade\frogbomb2.vmt
+materials\models\player\zombie\froggrenade\frogbomb.vmt
+materials\models\player\zombie\mutation_light\frogbomb2.vmt
+materials\models\player\zombie\mutation_light\Frogbomb.vmt

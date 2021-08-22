@@ -1,0 +1,2 @@
+materials\models\weapons\balrog3_fix\balrog-3_v.vmt
+materials\models\weapons\balrog3_fix\balrog-3_reflection.vmt

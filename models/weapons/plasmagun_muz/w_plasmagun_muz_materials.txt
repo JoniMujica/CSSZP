@@ -1,0 +1,2 @@
+materials\models\weapons\plasmagun_muz\plasma_v_alpha.vmt
+materials\models\weapons\plasmagun_muz\plasma_v.vmt

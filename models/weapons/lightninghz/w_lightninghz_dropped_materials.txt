@@ -1,0 +1,1 @@
+materials\models\weapons\lightning_hz_1\heavygun_1w.vmt

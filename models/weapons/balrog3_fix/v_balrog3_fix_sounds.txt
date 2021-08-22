@@ -1,0 +1,4 @@
+sound/weapons\balrig3_clipout.mp3
+sound/weapons\balrig3_clipin.mp3
+sound/weapons\balrig3_boltpull.mp3
+sound/weapons\balrig3_draw.mp3

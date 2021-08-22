@@ -1,0 +1,2 @@
+sound/weapons\balrog11_insert.mp3
+sound/weapons\balrog11_draw.mp3

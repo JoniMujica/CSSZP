@@ -1,0 +1,6 @@
+materials\models\player\kuristaja\cso2\carrie\ct_carrie_hair_inv.vmt
+materials\models\player\kuristaja\cso2\carrie\ct_carrie_hair_alp_inv.vmt
+materials\models\player\kuristaja\cso2\carrie\ct_carrie_hair_alp.vmt
+materials\models\player\kuristaja\cso2\carrie\ct_carrie_face_eyelashes.vmt
+materials\models\player\kuristaja\cso2\carrie\ct_carrie.vmt
+materials\models\player\kuristaja\cso2\carrie\ct_carrie_hair.vmt

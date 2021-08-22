@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\janus7_fix\spark"
+	$translucent 1
+	$alpha ".5"
+}

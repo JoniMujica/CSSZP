@@ -1,0 +1,5 @@
+sound/weapons/heavyzg_reload.mp3
+sound/weapons/heavyzg_draw.mp3
+sound/weapons/heavyzg_idle2.mp3
+sound/weapons/heavyzg_idle2.mp3
+sound/weapons/heavyzg_idle2.mp3

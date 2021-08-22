@@ -1,0 +1,1 @@
+materials\models\weapons\janus1_fix\janus1_v.vmt

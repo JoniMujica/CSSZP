@@ -1,0 +1,1 @@
+materials\models\player\zombie\mutation_light\studio.vmt

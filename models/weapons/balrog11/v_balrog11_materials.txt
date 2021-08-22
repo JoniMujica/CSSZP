@@ -1,0 +1,14 @@
+materials\models\player\zombie\shared\hands\long\CSO_Girl_Hand_long.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_malelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\CSO_HighQ_Hand__Long_512.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_malelong.vmt
+materials\models\weapons\balrog11\balrog-11_light.vmt
+materials\models\weapons\balrog11\balrog-11_v_on.vmt
+materials\models\weapons\balrog11\balrog-11_v.vmt
+materials\models\weapons\balrog11\ma_blue_femalelong.vmt
+materials\models\weapons\balrog11\ma_blue_malelong.vmt
+materials\models\weapons\balrog11\ma_red_femalelong.vmt
+materials\models\weapons\balrog11\ma_red_malelong.vmt
+materials\models\weapons\balrog11\CSO_Girl_Hand_long.vmt

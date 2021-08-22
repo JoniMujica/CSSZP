@@ -1,0 +1,3 @@
+materials\models\weapons\monkeywpnset1\light_1.vmt
+materials\models\weapons\monkeywpnset1\mask_01.vmt
+materials\models\weapons\monkeywpnset1\monkeywpnset1_v.vmt

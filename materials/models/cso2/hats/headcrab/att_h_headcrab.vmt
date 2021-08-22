@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+
+
+	"$basetexture"		"models\cso2\hats\headcrab\att_h_headcrab"
+	"$bumpmap"		"models\cso2\hats\headcrab\att_h_headcrab_normal"
+	
+	"$phong"			1
+	"$phongexponent"		30
+	"$phongboost"		2
+
+	"$rimlight"			1
+	"$rimlightexponent"		40
+	"$rimlightboost"		.7
+	"$rimmask"		0
+
+}

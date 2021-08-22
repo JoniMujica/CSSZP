@@ -1,0 +1,11 @@
+sound/weapons\janus3_clipout.mp3
+sound/weapons\janus3_clipin.mp3
+sound/weapons\janus3_boltpull1.mp3
+sound/weapons\janus3_boltpull2.mp3
+sound/weapons\janus3_change1.mp3
+sound/weapons\janus3_draw.mp3
+sound/weapons\janus3_change2.mp3
+sound/weapons\janus3_clipout.mp3
+sound/weapons\janus3_clipin.mp3
+sound/weapons\janus3_boltpull1.mp3
+sound/weapons\janus3_boltpull2.mp3

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/player/zombie/zombie_bomb/npc_a_zombie_bomb_01"
+	"$bumpmap"		"models/player/zombie/zombie_bomb/npc_a_zombie_bomb_01_normal"
+
+	"$phong"			1
+	"$phongboost"		2.0
+	"$phongexponent"		50
+	"$phongFresnelboost"	2
+	"$phongFresnelexponent"	3
+	"$phongtint"   		"[0.65 0.65 0.65]"
+
+	"$rimlight"		1
+	"$rimlightexponent"		8
+	"$rimlightboost"		0.7
+	"$rimmask"		0
+}

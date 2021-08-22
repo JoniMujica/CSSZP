@@ -1,0 +1,17 @@
+sound/weapons\cart_first_draw.mp3
+sound/weapons\cart_first_clipout.mp3
+sound/weapons\cart_first_clipin.mp3
+sound/weapons\cart_first_draw.mp3
+sound/weapons\cart_turn.mp3
+sound/weapons\cart_yahoo.mp3
+sound/weapons\cart_jump.mp3
+sound/weapons\cart_foley4.mp3
+sound/weapons\cart_second_clipout.mp3
+sound/weapons\cart_Lclipin.mp3
+sound/weapons\cart_second_hit.mp3
+sound/weapons\cart_spindown.mp3
+sound/weapons\cart_second_draw.mp3
+sound/weapons\cart_foley1.mp3
+sound/weapons\cart_foley2.mp3
+sound/weapons\cart_foley3.mp3
+sound/weapons\cart_turn.mp3

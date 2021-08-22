@@ -1,0 +1,3 @@
+materials\models\weapons\sfpistol\ef_sfpistol.vmt
+materials\models\weapons\sfpistol\sfpistol_greenlight.vmt
+materials\models\weapons\sfpistol\sfpistol_v.vmt

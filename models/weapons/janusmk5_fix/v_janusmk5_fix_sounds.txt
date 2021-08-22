@@ -1,0 +1,11 @@
+sound/weapons/janusmk5_clipout.mp3
+sound/weapons/janusmk5_clipin.mp3
+sound/weapons/janusmk5_boltpull.mp3
+sound/weapons/janusmk5_draw1.mp3
+sound/weapons/janusmk5_change1.mp3
+sound/weapons/janusmk5_draw1.mp3
+sound/weapons/janusmk5_change2.mp3
+sound/weapons/janusmk5_clipout.mp3
+sound/weapons/janusmk5_clipin.mp3
+sound/weapons/janusmk5_boltpull.mp3
+sound/weapons/janusmk5_draw1.mp3

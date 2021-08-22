@@ -1,0 +1,6 @@
+materials\models\player\zombie\shared\npc_a_zombie_total.vmt
+materials\models\player\zombie\shared\frogbomb2.vmt
+materials\models\player\zombie\shared\Frogbomb.vmt
+materials\models\player\zombie\shared\n_zombie_male_01.vmt
+materials\models\player\zombie\shared\npc_a_zombie_normal_f_01.vmt
+materials\models\player\zombie\shared\zombie_normal_m_03.vmt

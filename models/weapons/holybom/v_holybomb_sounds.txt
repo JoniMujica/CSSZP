@@ -1,0 +1,2 @@
+sound/weapons\holywater_pinpul.mp3
+sound/weapons\holywater_deploy.mp3

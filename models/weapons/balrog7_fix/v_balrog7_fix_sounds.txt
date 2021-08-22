@@ -1,0 +1,5 @@
+sound/weapons/balrog7_clipout1.mp3
+sound/weapons/balrog7_clipout2.mp3
+sound/weapons/balrog7_clipin1.mp3
+sound/weapons/balrog7_clipin2.mp3
+sound/weapons/balrog7_clipin3.mp3

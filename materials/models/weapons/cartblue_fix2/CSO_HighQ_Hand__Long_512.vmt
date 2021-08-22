@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  "models\player\zombie\shared\hands\long\CSO_HighQ_Hand__Long_512"
+    "$bumpmap"      "models/player/zombie/shared\hands\long\CSO_HighQ_Hand__Long_512_normal"
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[0.02 0.02 0.02]"
+    "$phongalbedotint" "1"
+    "$halflambert" "1"
+}

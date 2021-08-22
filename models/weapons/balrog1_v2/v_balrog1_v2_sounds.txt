@@ -1,0 +1,7 @@
+sound/weapons/balrog1_draw.mp3
+sound/weapons\balrog1_reloadB.mp3
+sound/weapons\balrog1_reload.mp3
+sound/weapons/balrog1_changeA.mp3
+sound/weapons/balrog1_changeB.mp3
+sound/weapons\balrog1_reloadB.mp3
+sound/weapons\balrog1_reload.mp3

@@ -1,0 +1,1 @@
+materials\models\weapons\bazooka\bazooka_v.vmt

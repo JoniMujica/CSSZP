@@ -1,0 +1,1 @@
+materials\models\player\custom_player\napas\tank_red\heavy-blue.vmt

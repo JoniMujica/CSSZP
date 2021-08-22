@@ -1,0 +1,4 @@
+sound/weapons\skull1_draw.mp3
+sound/weapons\skull1_draw.mp3
+sound/weapons\skull1_clipout.mp3
+sound/weapons\skull1_clipin.mp3

@@ -1,0 +1,1 @@
+materials\models\player\zombie\sherif\zombie_normal_hand.vmt

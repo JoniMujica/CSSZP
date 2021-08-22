@@ -1,0 +1,15 @@
+materials\models\player\zombie\shared\hands\long\CSO_Girl_Hand_long.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_malelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\CSO_HighQ_Hand__Long_512.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_malelong.vmt
+materials\models\weapons\janus7_fix\spark.vmt
+materials\models\weapons\janus7_fix\janus7_eyes.vmt
+materials\models\weapons\janus7_fix\janus7_crown.vmt
+materials\models\weapons\janus7_fix\janus7_v.vmt
+materials\models\weapons\janus7_fix\ma_blue_femalelong.vmt
+materials\models\weapons\janus7_fix\ma_blue_malelong.vmt
+materials\models\weapons\janus7_fix\ma_red_femalelong.vmt
+materials\models\weapons\janus7_fix\ma_red_malelong.vmt
+materials\models\weapons\janus7_fix\CSO_Girl_Hand_long.vmt

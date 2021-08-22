@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\airburster\$0b_air_muzzle"
+	"$translucent" "1"
+	"$alpha" ".3"
+}

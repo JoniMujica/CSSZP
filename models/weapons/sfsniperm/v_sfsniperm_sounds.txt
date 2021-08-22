@@ -1,0 +1,2 @@
+sound/weapons\sfsniper_idle.mp3
+sound/weapons\sfsniper_draw.mp3

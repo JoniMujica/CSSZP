@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\holybom\holywater_f"
+    "$translucent" "1"
+	"$nocull" 1
+}

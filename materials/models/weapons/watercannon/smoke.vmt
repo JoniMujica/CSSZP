@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\watercannon/smoke"
+	$translucent 1
+	$alpha .5
+}

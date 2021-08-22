@@ -1,0 +1,1 @@
+materials\models\weapons\cartblue_fix2\dao_rifle-vmodel.vmt

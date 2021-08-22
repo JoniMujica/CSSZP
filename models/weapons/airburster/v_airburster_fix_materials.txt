@@ -1,0 +1,16 @@
+materials\models\player\zombie\shared\hands\long\CSO_Girl_Hand_long.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_malelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\CSO_HighQ_Hand__Long_512.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_malelong.vmt
+materials\models\weapons\airburster\$0b_s23.vmt
+materials\models\weapons\airburster\$0b_s13.vmt
+materials\models\weapons\airburster\$0b_s03.vmt
+materials\models\weapons\airburster\$0b_air_muzzle.vmt
+materials\models\weapons\airburster\air_burster_v.vmt
+materials\models\weapons\airburster\ma_blue_femalelong.vmt
+materials\models\weapons\airburster\ma_blue_malelong.vmt
+materials\models\weapons\airburster\ma_red_femalelong.vmt
+materials\models\weapons\airburster\ma_red_malelong.vmt
+materials\models\weapons\airburster\CSO_Girl_Hand_long.vmt

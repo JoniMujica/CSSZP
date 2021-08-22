@@ -1,0 +1,15 @@
+materials\models\player\zombie\shared\hands\long\CSO_Girl_Hand_long.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_malelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\ma_red_femalelong.vmt
+materials\models\player\zombie\shared\hands\long\CSO_HighQ_Hand__Long_512.vmt
+materials\models\player\zombie\shared\hands\long\ma_blue_malelong.vmt
+materials\models\weapons\janus3\ma_blue_femalelong.vmt
+materials\models\weapons\janus3\ma_blue_malelong.vmt
+materials\models\weapons\janus3\ma_red_femalelong.vmt
+materials\models\weapons\janus3\ma_red_malelong.vmt
+materials\models\weapons\janus3\CSO_Girl_Hand_long.vmt
+materials\models\weapons\janus3\CSO_HighQ_Hand__Long_512.vmt
+materials\models\weapons\janus3\effect-face.vmt
+materials\models\weapons\janus3\effect-twig_01.vmt
+materials\models\weapons\janus3\effect-twig_02.vmt

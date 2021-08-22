@@ -1,0 +1,8 @@
+sound/weapons/chainsaw_idle.mp3
+sound/weapons/chainsaw_reload.mp3
+sound/weapons/chainsaw_draw.mp3
+sound/weapons/chainsaw_idle.mp3
+sound/weapons/chainsaw_reload.mp3
+sound/weapons/chainsaw_draw1.mp3
+sound/weapons/chainsaw_attack1_end.mp3
+sound/weapons/chainsaw_attack1_start.mp3

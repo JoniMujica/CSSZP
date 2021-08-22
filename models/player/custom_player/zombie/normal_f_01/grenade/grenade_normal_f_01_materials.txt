@@ -1,0 +1,3 @@
+materials\models\player\zombie\froggrenade\frogbomb2.vmt
+materials\models\player\zombie\froggrenade\frogbomb.vmt
+materials\models\player\zombie\shared\frogbomb2.vmt

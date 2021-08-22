@@ -1,0 +1,1 @@
+materials\models\weapons\balrog1_v2\balrog1_v.vmt

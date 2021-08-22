@@ -1,0 +1,2 @@
+sound/weapons\sfgrenade_pullpin.mp3
+sound/weapons\sfgrenade_deploy.mp3

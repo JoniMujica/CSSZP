@@ -1,0 +1,1 @@
+materials\models\cso2\hats\chicken\att_h_chickenhead.vmt

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\weapons\chainsaw\chainsaw_v"
+	$nocull 1
+}

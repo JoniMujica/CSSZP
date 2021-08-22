@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\lasermine\combine_mine"
+	"$bumpMap" "models\weapons\lasermine\combine_mine_normal"
+
+	"$surfaceprop" "metal"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "35"
+	"$phongfresnelranges"	"[.1 .5 1.0]"
+	$selfillum 1
+}

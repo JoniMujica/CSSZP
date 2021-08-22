@@ -1,0 +1,1 @@
+materials\models\player\zombie\shared\hands\long\ma_red_femalelong.vmt

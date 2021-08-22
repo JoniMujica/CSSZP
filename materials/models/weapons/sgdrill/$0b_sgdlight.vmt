@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\sgdrill/$0b_sgdlight"
+	"$translucent" "1"
+	"$alpha" ".5"	
+}

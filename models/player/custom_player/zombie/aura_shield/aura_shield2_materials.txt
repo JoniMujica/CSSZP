@@ -1,0 +1,1 @@
+materials\models\player\zombie\aura_shield\aura_shield.vmt

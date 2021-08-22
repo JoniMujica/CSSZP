@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\sfgrenade/sf_glow"
+	$translucent 1
+	$alpha "0"
+}

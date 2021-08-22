@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/player/zombie/aura_shield/aura_shield"
+	"$additive" 1
+}

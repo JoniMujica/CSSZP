@@ -1,0 +1,3 @@
+sound/weapons/bazooka_draw.mp3
+sound/weapons/bazooka_clipout.mp3
+sound/weapons/bazooka_clipin.mp3

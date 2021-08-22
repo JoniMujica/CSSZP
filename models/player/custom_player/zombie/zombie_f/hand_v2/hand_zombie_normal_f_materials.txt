@@ -1,0 +1,1 @@
+materials\models\player\zombie\zombie_f\normal_f_hand.vmt

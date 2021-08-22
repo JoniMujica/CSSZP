@@ -1,0 +1,9 @@
+sound/zombie/zombiebomb/idle1.mp3
+sound/zombie/zombiebomb/idle2.mp3
+sound/zombie/zombiebomb/idle3.mp3
+sound/zombie/zombiebomb/idle4.mp3
+sound/zombie/zombieclaw/npc_zombie_female01_idle.mp3
+sound/zombie/zombiebomb/pull1.mp3
+sound/zombie/zombiebomb/throw.mp3
+sound/zombie/zombiebomb/deploy.mp3
+sound/zombie/zombiebomb/throw.mp3

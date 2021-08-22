@@ -1,0 +1,4 @@
+sound/weapons\skull11_boltpull.mp3
+sound/weapons\skull11_clipout.mp3
+sound/weapons\skull11_clipin.mp3
+sound/weapons\skull11_boltpull.mp3

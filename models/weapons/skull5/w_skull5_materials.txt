@@ -1,0 +1,1 @@
+materials\models\weapons\skull5\skull-vmodel.vmt

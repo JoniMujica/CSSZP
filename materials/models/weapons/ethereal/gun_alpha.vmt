@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/ethereal/gun_alpha"
+	"$bumpMap" "models/weapons/ethereal/gun_alpha_normal"
+
+	"$additive"           		"1"
+	"$model" 					"1"	
+	"$nocull" 					"1"
+}

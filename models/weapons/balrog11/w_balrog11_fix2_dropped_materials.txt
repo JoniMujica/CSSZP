@@ -1,0 +1,3 @@
+materials\models\weapons\balrog11\balrog-11_light.vmt
+materials\models\weapons\balrog11\balrog-11_v_on.vmt
+materials\models\weapons\balrog11\balrog-11_v.vmt

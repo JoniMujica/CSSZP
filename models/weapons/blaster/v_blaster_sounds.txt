@@ -1,0 +1,3 @@
+sound/weapons/sfgun_clipout.mp3
+sound/weapons/sfgun_clipin.mp3
+sound/weapons/sfgun_draw.mp3

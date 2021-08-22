@@ -1,0 +1,5 @@
+sound/weapons\plasmagun_idle.mp3
+sound/weapons\plasmagun_draw.mp3
+sound/weapons\plasmagun_clipout.mp3
+sound/weapons\plasmagun_clipin1.mp3
+sound/weapons\plasmagun_clipin2.mp3

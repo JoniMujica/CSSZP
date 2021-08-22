@@ -1,0 +1,4 @@
+materials\models\weapons\balrog7_fix\balrog-7_eye.vmt
+materials\models\weapons\balrog7_fix\balrog-7_scope.vmt
+materials\models\weapons\balrog7_fix\balrog-7_f.vmt
+materials\models\weapons\balrog7_fix\balrog-7_v.vmt

@@ -1,0 +1,2 @@
+materials\models\weapons\janus3\effect-twig_02.vmt
+materials\models\weapons\janus3\janus3_v.vmt

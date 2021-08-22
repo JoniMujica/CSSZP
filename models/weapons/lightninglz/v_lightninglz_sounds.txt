@@ -1,0 +1,5 @@
+sound/weapons/lightzg_reload.mp3
+sound/weapons/lightzg_draw.mp3
+sound/weapons/lightzg_idle2.mp3
+sound/weapons/lightzg_idle2.mp3
+sound/weapons/lightzg_idle2.mp3

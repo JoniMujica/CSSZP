@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\janusmk5_fix/janusmk5_eyes"
+    "$translucent" "1"
+    "$alpha" ".0"
+}

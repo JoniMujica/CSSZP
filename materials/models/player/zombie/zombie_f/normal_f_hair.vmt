@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+
+         $baseTexture "models\player\zombie\zombie_f\normal_f_hair"
+        $bumpmap "models\player\zombie\zombie_f\normal_f_hair_normal"
+	$alphatest "1"
+
+	"$phong"			1
+	"$phongboost"		1.5
+	"$phongexponent"		50
+	"$phongFresnelboost"	2
+	"$phongFresnelexponent"	3
+	"$phongtint"   		"[0.65 0.65 0.65]"
+
+
+}
