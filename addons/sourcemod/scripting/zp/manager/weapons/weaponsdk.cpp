@@ -185,8 +185,8 @@ void WeaponSDKInit(/*void*/) /// https://www.unknowncheats.me/forum/counterstrik
     fnInitSendPropOffset(g_iOffset_ViewModelSequence, "CBaseViewModel", "m_nSequence");
     fnInitSendPropOffset(g_iOffset_ViewModelPlaybackRate, "CBaseViewModel", "m_flPlaybackRate");
     fnInitSendPropOffset(g_iOffset_ViewModelIndex, "CBaseViewModel", "m_nViewModelIndex");
-    fnInitSendPropOffset(g_iOffset_ViewModelIgnoreOffsAcc, "CBaseViewModel", "m_bShouldIgnoreOffsetAndAccuracy");
-    fnInitSendPropOffset(g_iOffset_EconItemDefinitionIndex, "CEconEntity", "m_iItemDefinitionIndex");
+    //fnInitSendPropOffset(g_iOffset_ViewModelIgnoreOffsAcc, "CBaseViewModel", "m_bShouldIgnoreOffsetAndAccuracy");
+    //fnInitSendPropOffset(g_iOffset_EconItemDefinitionIndex, "CEconEntity", "m_iItemDefinitionIndex");
     fnInitSendPropOffset(g_iOffset_NewSequenceParity, "CBaseAnimating", "m_nNewSequenceParity");
     fnInitSendPropOffset(g_iOffset_LastShotTime, "CWeaponCSBase", "m_fLastShotTime");
     ///fnInitSendPropOffset(g_iOffset_PlayerAmmo, "CBasePlayer", "m_iAmmo"); 
@@ -660,7 +660,7 @@ void WeaponSDKOnClientUpdate(const int clientIndex)
         SetEntData(viewModel2, g_iOffset_ViewModelIndex, 1, _, true);
 
         // Remove accuracity
-        SetEntData(viewModel2, g_iOffset_ViewModelIgnoreOffsAcc, true, 1, true);
+        //SetEntData(viewModel2, g_iOffset_ViewModelIgnoreOffsAcc, true, 1, true);
 
         // Spawn the entity into the world
         DispatchSpawn(viewModel2);
