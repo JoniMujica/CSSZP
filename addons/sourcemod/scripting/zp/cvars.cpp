@@ -54,7 +54,7 @@ enum CvarsList
     ConVar:CVAR_SERVER_GIVE_BOMB,
     ConVar:CVAR_SERVER_ROUNDTIME_ZP,
     ConVar:CVAR_SERVER_ROUNDTIME_CS,
-    ConVar:CVAR_SERVER_ROUNDTIME_DE,
+    //ConVar:CVAR_SERVER_ROUNDTIME_DE,
     ConVar:CVAR_SERVER_ROUND_RESTART,
     ConVar:CVAR_SERVER_RESTART_DELAY,
     ConVar:CVAR_GAME_CUSTOM_START,
@@ -98,7 +98,7 @@ enum CvarsList
     ConVar:CVAR_ZOMBIE_CLASS_MENU,
     ConVar:CVAR_ZOMBIE_FISRT_HEALTH,
     ConVar:CVAR_ZOMBIE_NIGHT_VISION,
-    ConVar:CVAR_ZOMBIE_XRAY,
+    //ConVar:CVAR_ZOMBIE_XRAY,
     ConVar:CVAR_ZOMBIE_CROSSHAIR,
     ConVar:CVAR_ZOMBIE_RESTORE,
     ConVar:CVAR_NEMESIS_SPEED,
@@ -249,6 +249,7 @@ enum CvarsList
     ConVar:CVAR_SEFFECTS_ROUND_DRAW,
     ConVar:CVAR_MESSAGES_HELP,
     ConVar:CVAR_MESSAGES_BLOCK,
+    /*
     ConVar:CVAR_CT_DEFAULT_GRENADES,
     ConVar:CVAR_CT_DEFAULT_MELEE,
     ConVar:CVAR_CT_DEFAULT_SECONDARY,
@@ -261,6 +262,7 @@ enum CvarsList
     ConVar:CVAR_H_DEFAULT_MELEE,
     ConVar:CVAR_H_DEFAULT_SECONDARY,
     ConVar:CVAR_H_DEFAULT_PRIMARY,
+    */
     ConVar:CVAR_Z_DEFAULT_EQUIPMENT,
     ConVar:CVAR_Z_DEFAULT_MELEE,
     ConVar:CVAR_Z_DEFAULT_SECONDARY,
@@ -314,14 +316,14 @@ void CvarsCreate(/*void*/)
     // =========================== //
     //        Server Purpose       //
     // =========================== //
-    gCvarList[CVAR_SERVER_OCCULUSE]             = FindConVar("sv_occlude_players");
-    gCvarList[CVAR_SERVER_CLAMP]                = FindConVar("sv_clamp_unsafe_velocities");
+    //gCvarList[CVAR_SERVER_OCCULUSE]             = FindConVar("sv_occlude_players");
+    //gCvarList[CVAR_SERVER_CLAMP]                = FindConVar("sv_clamp_unsafe_velocities");
     gCvarList[CVAR_SERVER_TEAM_BALANCE]         = FindConVar("mp_autoteambalance"); 
     gCvarList[CVAR_SERVER_LIMIT_TEAMS]          = FindConVar("mp_limitteams");
-    gCvarList[CVAR_SERVER_CASH_AWARD]           = FindConVar("mp_playercashawards");
-    gCvarList[CVAR_SERVER_CASH_MAX]             = FindConVar("mp_maxmoney");
+    //gCvarList[CVAR_SERVER_CASH_AWARD]           = FindConVar("mp_playercashawards");
+    //gCvarList[CVAR_SERVER_CASH_MAX]             = FindConVar("mp_maxmoney");
     gCvarList[CVAR_SERVER_FRIENDLY_FIRE]        = FindConVar("mp_friendlyfire");
-    gCvarList[CVAR_SERVER_FRIENDLY_GRENADE]     = FindConVar("ff_damage_reduction_grenade");
+    /*gCvarList[CVAR_SERVER_FRIENDLY_GRENADE]     = FindConVar("ff_damage_reduction_grenade");
     gCvarList[CVAR_SERVER_FRIENDLY_BULLETS]     = FindConVar("ff_damage_reduction_bullets");
     gCvarList[CVAR_SERVER_FRIENDLY_OTHER]       = FindConVar("ff_damage_reduction_other");
     gCvarList[CVAR_SERVER_FRIENDLY_SELF]        = FindConVar("ff_damage_reduction_grenade_self");
@@ -330,10 +332,10 @@ void CvarsCreate(/*void*/)
     gCvarList[CVAR_SERVER_WARMUP_PERIOD]        = FindConVar("mp_do_warmup_period");
     gCvarList[CVAR_SERVER_GIVE_WEAPON]          = FindConVar("mp_weapons_allow_map_placed");
     gCvarList[CVAR_SERVER_GIVE_TASER]           = FindConVar("mp_weapons_allow_zeus");
-    gCvarList[CVAR_SERVER_GIVE_BOMB]            = FindConVar("mp_give_player_c4");
+    gCvarList[CVAR_SERVER_GIVE_BOMB]            = FindConVar("mp_give_player_c4");*/
     gCvarList[CVAR_SERVER_ROUNDTIME_ZP]         = FindConVar("mp_roundtime");
-    gCvarList[CVAR_SERVER_ROUNDTIME_CS]         = FindConVar("mp_roundtime_hostage");
-    gCvarList[CVAR_SERVER_ROUNDTIME_DE]         = FindConVar("mp_roundtime_defuse");
+    //gCvarList[CVAR_SERVER_ROUNDTIME_CS]         = FindConVar("mp_roundtime_hostage");
+    //gCvarList[CVAR_SERVER_ROUNDTIME_DE]         = FindConVar("mp_roundtime_defuse");
     gCvarList[CVAR_SERVER_ROUND_RESTART]        = FindConVar("mp_restartgame");
     gCvarList[CVAR_SERVER_RESTART_DELAY]        = FindConVar("mp_round_restart_delay");
 
@@ -405,7 +407,7 @@ void CvarsCreate(/*void*/)
     gCvarList[CVAR_ZOMBIE_CLASS_MENU]           = CreateConVar("zp_zombie_class_menu",              "0",                                                               "Enable zombie class menu on an infection with instant class change for 10 seconds [0-no // 1-yes]");
     gCvarList[CVAR_ZOMBIE_FISRT_HEALTH]         = CreateConVar("zp_zombie_additional_health",       "100",                                                             "Additional health to first zombie [player count*health ratio]"); 
     gCvarList[CVAR_ZOMBIE_NIGHT_VISION]         = CreateConVar("zp_zombie_nvg_give",                "1",                                                               "Enable custom nightvision [0-no // 1-yes]"); 
-    gCvarList[CVAR_ZOMBIE_XRAY]                 = CreateConVar("zp_zombie_xray_give",               "1",                                                               "Enable custom x-ray for viewing through walls [0-no // 1-yes]"); 
+    //gCvarList[CVAR_ZOMBIE_XRAY]                 = CreateConVar("zp_zombie_xray_give",               "1",                                                               "Enable custom x-ray for viewing through walls [0-no // 1-yes]"); 
     gCvarList[CVAR_ZOMBIE_CROSSHAIR]            = CreateConVar("zp_zombie_crosshair_give",          "0",                                                               "Enable crosshair on weapons [0-no // 1-yes]"); 
     gCvarList[CVAR_ZOMBIE_RESTORE]              = CreateConVar("zp_zombie_restore",                 "0",                                                               "Enable restoring health, when zombie don't moving [0-no // 1-yes]");   
 
@@ -612,6 +614,7 @@ void CvarsCreate(/*void*/)
     // =========================== //
     //     Additional settings     //
     // =========================== //
+    /*
     gCvarList[CVAR_CT_DEFAULT_GRENADES]         = FindConVar("mp_ct_default_grenades");
     gCvarList[CVAR_CT_DEFAULT_MELEE]            = FindConVar("mp_ct_default_melee");
     gCvarList[CVAR_CT_DEFAULT_SECONDARY]        = FindConVar("mp_ct_default_secondary");
@@ -624,6 +627,7 @@ void CvarsCreate(/*void*/)
     gCvarList[CVAR_H_DEFAULT_MELEE]             = CreateConVar("mp_h_default_melee",                "knife",                                                           "Default knife for human");
     gCvarList[CVAR_H_DEFAULT_SECONDARY]         = CreateConVar("mp_h_default_secondary",            "",                                                                "Default secondaty for human");
     gCvarList[CVAR_H_DEFAULT_PRIMARY]           = CreateConVar("mp_h_default_primary",              "",                                                                "Default primary for human");
+   */
     gCvarList[CVAR_Z_DEFAULT_EQUIPMENT]         = CreateConVar("mp_z_default_equipment",            "",                                                                "Default equipment for zombie [\"hegrenade, ...\" - in the string divided by ',']");
     gCvarList[CVAR_Z_DEFAULT_MELEE]             = CreateConVar("mp_z_default_melee",                "zombie claw",                                                     "Default knife for zombie");
     gCvarList[CVAR_Z_DEFAULT_SECONDARY]         = CreateConVar("mp_z_default_secondary",            "",                                                                "Default secondaty for zombie");
@@ -658,6 +662,7 @@ void CvarsHook(/*void*/)
     gCvarList[CVAR_SERVER_GIVE_WEAPON].IntValue = 0;
     gCvarList[CVAR_SERVER_GIVE_TASER].IntValue = 1;
     gCvarList[CVAR_SERVER_GIVE_BOMB].IntValue = 1;
+    /*
     gCvarList[CVAR_CT_DEFAULT_GRENADES].SetString("");
     gCvarList[CVAR_CT_DEFAULT_MELEE].SetString("");
     gCvarList[CVAR_CT_DEFAULT_SECONDARY].SetString("");
@@ -665,7 +670,8 @@ void CvarsHook(/*void*/)
     gCvarList[CVAR_T_DEFAULT_GRENADES].SetString("");
     gCvarList[CVAR_T_DEFAULT_MELEE].SetString("");
     gCvarList[CVAR_T_DEFAULT_SECONDARY].SetString("");
-    gCvarList[CVAR_T_DEFAULT_PRIMARY].SetString("");
+    gCvarList[CVAR_T_DEFAULT_PRIMARY].SetString("");*/
+
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_GRENADE], 0);
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_BULLETS], 0);
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_OTHER], 0);
@@ -683,6 +689,7 @@ void CvarsHook(/*void*/)
     HookConVarChange(gCvarList[CVAR_SERVER_GIVE_WEAPON],      CvarsHookLocked);    
     HookConVarChange(gCvarList[CVAR_SERVER_GIVE_TASER],       CvarsHookUnlocked);
     HookConVarChange(gCvarList[CVAR_SERVER_GIVE_BOMB],        CvarsHookUnlocked);
+    /*
     HookConVarChange(gCvarList[CVAR_CT_DEFAULT_GRENADES],     CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_CT_DEFAULT_MELEE],        CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_CT_DEFAULT_SECONDARY],    CvarsHookLockedString);
@@ -691,15 +698,16 @@ void CvarsHook(/*void*/)
     HookConVarChange(gCvarList[CVAR_T_DEFAULT_MELEE],         CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_T_DEFAULT_SECONDARY],     CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_T_DEFAULT_PRIMARY],       CvarsHookLockedString);
+    */
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_GRENADE], CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_BULLETS], CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_OTHER],   CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_SELF],    CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_ZP],     CvarsHookRoundTime);
-    HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_CS],     CvarsHookRoundTime);
-    HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_DE],     CvarsHookRoundTime);
+    //HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_CS],     CvarsHookRoundTime);
+    //HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_DE],     CvarsHookRoundTime);
     HookConVarChange(gCvarList[CVAR_SERVER_ROUND_RESTART],    CvarsHookRoundRestart);
-    HookConVarChange(gCvarList[CVAR_ZOMBIE_XRAY],             CvarsHookZombieVision);
+    //HookConVarChange(gCvarList[CVAR_ZOMBIE_XRAY],             CvarsHookZombieVision);
 }
 
 /**
@@ -769,12 +777,13 @@ public void CvarsHookLockedCheat(ConVar hConVar, const char[] oldValue, const ch
 public void CvarsHookRoundTime(ConVar hConVar, const char[] oldValue, const char[] newValue)
 {
     // If cvar is mp_roundtime_hostage or mp_roundtime_defuse, then continue
+    /*
     if(hConVar == gCvarList[CVAR_SERVER_ROUNDTIME_CS] || hConVar == gCvarList[CVAR_SERVER_ROUNDTIME_DE])
     {
         // Revert to specific value
         hConVar.IntValue = gCvarList[CVAR_SERVER_ROUNDTIME_ZP].IntValue;
-    }
-    
+    }*/
+    hConVar.IntValue = gCvarList[CVAR_SERVER_ROUNDTIME_ZP].IntValue;
     // If value was invalid, then stop
     int iDelay = StringToInt(newValue);
     if(iDelay <= CvarsRoundMax)
@@ -827,12 +836,13 @@ public void CvarsHookRoundRestart(ConVar hConVar, const char[] oldValue, const c
  * @param oldValue          The value before the attempted change.
  * @param newValue          The new value.
  **/
+/*
 public void CvarsHookZombieVision(ConVar hConVar, const char[] oldValue, const char[] newValue)
 {
     // Revert to opposite value
     gCvarList[CVAR_SERVER_OCCULUSE].SetBool(!StringToInt(newValue));
 }
-
+*/
 /**
  * Sets the integer value of a cvar variable. (sv_cheat 1)
  *
