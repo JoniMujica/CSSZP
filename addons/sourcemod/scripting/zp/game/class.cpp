@@ -74,7 +74,7 @@ void ClassMakeZombie(const int victimIndex, const int attackerIndex = 0, const b
     
     // Resets some tools
     ToolsResetTimers(victimIndex);
-    ToolsSetClientDetecting(victimIndex, false);
+    //ToolsSetClientDetecting(victimIndex, false);
     ToolsSetClientFlashLight(victimIndex, false);
     ToolsSetClientHud(victimIndex, gCvarList[CVAR_ZOMBIE_CROSSHAIR].BoolValue);
     

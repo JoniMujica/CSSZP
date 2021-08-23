@@ -75,8 +75,8 @@ void ToolsFindOffsets(/*void*/) //IClientUnknown, IClientRenderable, IClientNetw
     fnInitSendPropOffset(g_iOffset_PlayerNightVisionOn, "CCSPlayer", "m_bNightVisionOn");
     fnInitSendPropOffset(g_iOffset_PlayerHasNightVision, "CCSPlayer", "m_bHasNightVision");
     fnInitSendPropOffset(g_iOffset_PlayerHasDefuser, "CCSPlayer", "m_bHasDefuser");
-    fnInitSendPropOffset(g_iOffset_PlayerSpotted, "CBasePlayer", "m_bSpotted");
-    fnInitSendPropOffset(g_iOffset_PlayerDetected, "CCSPlayer", "m_flDetectedByEnemySensorTime");
+    fnInitSendPropOffset(g_iOffset_PlayerSpotted, "CCSPlayerResource", "m_bPlayerSpotted");
+    // fnInitSendPropOffset(g_iOffset_PlayerDetected, "CCSPlayer", "m_flDetectedByEnemySensorTime");
     fnInitSendPropOffset(g_iOffset_PlayerHUD, "CBasePlayer", "m_iHideHUD");
     fnInitSendPropOffset(g_iOffset_PlayerHitGroup, "CBasePlayer", "m_LastHitGroup");
     fnInitSendPropOffset(g_iOffset_PlayerFlashLight, "CBasePlayer", "m_fEffects");

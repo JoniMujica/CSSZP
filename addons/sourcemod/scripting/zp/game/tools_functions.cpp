@@ -637,11 +637,12 @@ stock void ToolsSetClientSpot(const int clientIndex, const bool bEnable)
  * @param clientIndex       The client index.
  * @param bEnable           Enable or disable an aspect of detection.
  **/
+/*
 stock void ToolsSetClientDetecting(const int clientIndex, const bool bEnable)
 {
     // Sets value on the client
     SetEntDataFloat(clientIndex, g_iOffset_PlayerDetected, bEnable ? (GetGameTime() + 9999.0) : 0.0, true);
-}
+}*/
 
 /**
  * Set a client hud.
