@@ -35,7 +35,7 @@ void DeathOnClientDeath(const int victimIndex, const int attackerIndex)
 {
     // Resets some tools
     ToolsResetTimers(victimIndex);
-    ToolsSetClientDetecting(victimIndex, false);
+    //ToolsSetClientDetecting(victimIndex, false);
     ToolsSetClientFlashLight(victimIndex, false);
     ToolsSetClientHud(victimIndex, true);
 

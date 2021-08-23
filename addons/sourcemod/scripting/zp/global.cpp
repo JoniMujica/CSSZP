@@ -52,7 +52,7 @@ int g_iOffset_PlayerHasDefuser;
 int g_iOffset_PlayerDefaultFOV;
 int g_iOffset_PlayerAccount;
 int g_iOffset_PlayerSpotted;
-int g_iOffset_PlayerDetected;
+//int g_iOffset_PlayerDetected;
 int g_iOffset_PlayerHUD;
 int g_iOffset_PlayerHitGroup;
 int g_iOffset_PlayerFlashLight;
