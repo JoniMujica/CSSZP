@@ -258,11 +258,12 @@ enum CvarsList
     ConVar:CVAR_T_DEFAULT_MELEE,
     ConVar:CVAR_T_DEFAULT_SECONDARY,
     ConVar:CVAR_T_DEFAULT_PRIMARY,
+    */
     ConVar:CVAR_H_DEFAULT_EQUIPMENT,
     ConVar:CVAR_H_DEFAULT_MELEE,
     ConVar:CVAR_H_DEFAULT_SECONDARY,
     ConVar:CVAR_H_DEFAULT_PRIMARY,
-    */
+
     ConVar:CVAR_Z_DEFAULT_EQUIPMENT,
     ConVar:CVAR_Z_DEFAULT_MELEE,
     ConVar:CVAR_Z_DEFAULT_SECONDARY,
@@ -623,11 +624,12 @@ void CvarsCreate(/*void*/)
     gCvarList[CVAR_T_DEFAULT_MELEE]             = FindConVar("mp_t_default_melee");
     gCvarList[CVAR_T_DEFAULT_SECONDARY]         = FindConVar("mp_t_default_secondary");
     gCvarList[CVAR_T_DEFAULT_PRIMARY]           = FindConVar("mp_t_default_primary");
+    */
     gCvarList[CVAR_H_DEFAULT_EQUIPMENT]         = CreateConVar("mp_h_default_equipment",            "",                                                                "Default equipment for human [\"hegrenade, freeze grenade ...\" - in the string divided by ',']");
     gCvarList[CVAR_H_DEFAULT_MELEE]             = CreateConVar("mp_h_default_melee",                "knife",                                                           "Default knife for human");
     gCvarList[CVAR_H_DEFAULT_SECONDARY]         = CreateConVar("mp_h_default_secondary",            "",                                                                "Default secondaty for human");
     gCvarList[CVAR_H_DEFAULT_PRIMARY]           = CreateConVar("mp_h_default_primary",              "",                                                                "Default primary for human");
-   */
+
     gCvarList[CVAR_Z_DEFAULT_EQUIPMENT]         = CreateConVar("mp_z_default_equipment",            "",                                                                "Default equipment for zombie [\"hegrenade, ...\" - in the string divided by ',']");
     gCvarList[CVAR_Z_DEFAULT_MELEE]             = CreateConVar("mp_z_default_melee",                "zombie claw",                                                     "Default knife for zombie");
     gCvarList[CVAR_Z_DEFAULT_SECONDARY]         = CreateConVar("mp_z_default_secondary",            "",                                                                "Default secondaty for zombie");
