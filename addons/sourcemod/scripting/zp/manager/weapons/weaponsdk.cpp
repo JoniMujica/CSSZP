@@ -166,7 +166,8 @@ void WeaponSDKInit(/*void*/) /// https://www.unknowncheats.me/forum/counterstrik
     fnInitSendPropOffset(g_iOffset_EntityOwnerEntity, "CBaseEntity", "m_hOwnerEntity");
     fnInitSendPropOffset(g_iOffset_EntityTeam, "CBaseEntity", "m_iTeamNum");
     fnInitSendPropOffset(g_iOffset_WeaponOwner, "CBaseCombatWeapon", "m_hOwner");
-    fnInitSendPropOffset(g_iOffset_WeaponWorldModel, "CBaseCombatWeapon", "m_hWeaponWorldModel"); /**"m_iWorldModelIndex" not flexible**/
+    //fnInitSendPropOffset(g_iOffset_WeaponWorldModel, "CBaseCombatWeapon", "m_hWeaponWorldModel"); /**"m_iWorldModelIndex" not flexible**/
+    fnInitSendPropOffset(g_iOffset_WeaponWorldModel, "CBaseCombatWeapon", "m_iWorldModelIndex");
     fnInitSendPropOffset(g_iOffset_WeaponBody, "CBaseCombatWeapon", "m_nBody");
     fnInitSendPropOffset(g_iOffset_WeaponSkin, "CBaseCombatWeapon", "m_nSkin");
     ///fnInitSendPropOffset(g_iOffset_WeaponParent, "CBaseWeaponWorldModel", "m_hCombatWeaponParent");
