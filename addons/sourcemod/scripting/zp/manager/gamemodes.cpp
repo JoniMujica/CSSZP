@@ -288,7 +288,7 @@ void GameModesTurnIntoHuman(/*void*/)
             ToolsSetClientDefuser(i, bState);
 
             // Sets glowing for the zombie vision
-            ToolsSetClientDetecting(i, gCvarList[CVAR_ZOMBIE_XRAY].BoolValue);
+            //ToolsSetClientDetecting(i, gCvarList[CVAR_ZOMBIE_XRAY].BoolValue);
         }
     }
 }

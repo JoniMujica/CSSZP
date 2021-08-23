@@ -31,10 +31,10 @@
 void EventInit(/*void*/)
 {
     // Hook server events
-    HookEvent("round_prestart",      EventRoundPreStart,    EventHookMode_Pre);
+    HookEvent("round_start",      EventRoundPreStart,    EventHookMode_Pre);
     HookEvent("round_start",         EventRoundStart,       EventHookMode_Post);
     HookEvent("round_end",           EventRoundEnd,         EventHookMode_Pre);
-    HookEvent("cs_win_panel_round",  EventBlockWinPanel,    EventHookMode_Pre);
+    //HookEvent("cs_win_panel_round",  EventBlockWinPanel,    EventHookMode_Pre);
 
     // Hook player events
     HookEvent("player_spawn",        EventPlayerSpawn,      EventHookMode_Post);
@@ -357,6 +357,7 @@ public Action EventPlayerHostage(Event hEvent, const char[] sName, bool dontBroa
  * @param gEventName        The name of the event.
  * @param dontBroadcast     If true, event is broadcasted to all clients, false if not.
  **/
+/*
 public Action EventBlockWinPanel(Event hEvent, const char[] sName, bool dontBroadcast) 
 {
     // Sets whether an event broadcasting will be disabled
@@ -365,7 +366,7 @@ public Action EventBlockWinPanel(Event hEvent, const char[] sName, bool dontBroa
         // Disable broadcasting
         hEvent.BroadcastDisabled = true;
     }
-}
+}*/
 
 /**
  * Event callback (Shotgun Shot)
