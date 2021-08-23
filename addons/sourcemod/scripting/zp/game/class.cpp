@@ -206,7 +206,7 @@ void ClassMakeHuman(const int clientIndex, const bool survivorMode = false, cons
     
     // Resets some tools
     ToolsResetTimers(clientIndex);
-    ToolsSetClientDetecting(clientIndex, (gCvarList[CVAR_ZOMBIE_XRAY].BoolValue && !respawnMode));
+    //ToolsSetClientDetecting(clientIndex, (gCvarList[CVAR_ZOMBIE_XRAY].BoolValue && !respawnMode));
     ToolsSetClientFlashLight(clientIndex, false);
     ToolsSetClientHud(clientIndex, true);
     
