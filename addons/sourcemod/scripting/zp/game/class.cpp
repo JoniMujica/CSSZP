@@ -230,7 +230,8 @@ void ClassMakeHuman(const int clientIndex, const bool survivorMode = false, cons
     //*********************************************************************
     
     // Initialize model char
-    static char sModel[PLATFORM_MAX_PATH]; static char sArm[PLATFORM_MAX_PATH];
+    static char sModel[PLATFORM_MAX_PATH]; 
+    //static char sArm[PLATFORM_MAX_PATH];
     
     // Sets survivor properties
     if(survivorMode)
@@ -257,7 +258,8 @@ void ClassMakeHuman(const int clientIndex, const bool survivorMode = false, cons
         ToolsSetClientArmor(clientIndex, 0); 
         
         // Gets survivor models
-        gCvarList[CVAR_SURVIVOR_ARM_MODEL].GetString(sArm, sizeof(sArm)); gCvarList[CVAR_SURVIVOR_PLAYER_MODEL].GetString(sModel, sizeof(sModel));
+        ///gCvarList[CVAR_SURVIVOR_ARM_MODEL].GetString(sArm, sizeof(sArm)); 
+        gCvarList[CVAR_SURVIVOR_PLAYER_MODEL].GetString(sModel, sizeof(sModel));
     }
     else
     {
@@ -280,7 +282,8 @@ void ClassMakeHuman(const int clientIndex, const bool survivorMode = false, cons
         ToolsSetClientArmor(clientIndex, (GetClientArmor(clientIndex) < HumanGetArmor(gClientData[clientIndex][Client_HumanClass])) ? HumanGetArmor(gClientData[clientIndex][Client_HumanClass]) : GetClientArmor(clientIndex));
         
         // Gets human models
-        HumanGetArmModel(gClientData[clientIndex][Client_HumanClass], sArm, sizeof(sArm)); HumanGetModel(gClientData[clientIndex][Client_HumanClass], sModel, sizeof(sModel));
+        //HumanGetArmModel(gClientData[clientIndex][Client_HumanClass], sArm, sizeof(sArm)); 
+        HumanGetModel(gClientData[clientIndex][Client_HumanClass], sModel, sizeof(sModel));
 
         // If help messages enable, then show 
         if(gCvarList[CVAR_MESSAGES_HELP].BoolValue)
@@ -303,7 +306,7 @@ void ClassMakeHuman(const int clientIndex, const bool survivorMode = false, cons
     
     // Apply models
     if(strlen(sModel)) SetEntityModel(clientIndex, sModel);
-    if(strlen(sArm)) SetEntDataString(clientIndex, g_iOffset_PlayerArms, sArm, sizeof(sArm), true);
+    //if(strlen(sArm)) SetEntDataString(clientIndex, g_iOffset_PlayerArms, sArm, sizeof(sArm), true);
 
     // Forward event to modules
     SoundsOnClientHumanized(clientIndex);

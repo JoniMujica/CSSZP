@@ -81,7 +81,7 @@ int g_iOffset_PlayerLastWeapon;
 int g_iOffset_PlayerObserverMode;
 int g_iOffset_PlayerObserverTarget;
 int g_iOffset_PlayerAttack;
-int g_iOffset_PlayerArms;
+//int g_iOffset_PlayerArms;
 int g_iOffset_PlayerAddonBits;
 int g_iOffset_ViewModelOwner;
 int g_iOffset_ViewModelWeapon;

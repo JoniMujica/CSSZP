@@ -55,12 +55,14 @@ void ModelsLoad(/*void*/)
         LogEvent(false, LogType_Fatal, LOG_CORE_EVENTS, LogModule_Models, "Config Validation", "Invalid survivor model path. File not found: \"%s\"", sPath);
     }
     
+    /*
     // Validate arm model
     gCvarList[CVAR_SURVIVOR_ARM_MODEL].GetString(sPath, sizeof(sPath));
     if(!ModelsPrecacheStatic(sPath))
     {
         LogEvent(false, LogType_Fatal, LOG_CORE_EVENTS, LogModule_Models, "Config Validation", "Invalid survivor arm model path. File not found: \"%s\"", sPath);
     }
+    */
 }
 
 /**

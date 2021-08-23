@@ -96,13 +96,14 @@ void HumanClassesLoad(/*void*/)
         {
             LogEvent(false, LogType_Fatal, LOG_CORE_EVENTS, LogModule_Humanclasses, "Model Validation", "Invalid model path. File not found: \"%s\"", sBuffer);
         }
+        /*
 
         // Validate arm model
         HumanGetArmModel(i, sBuffer, sizeof(sBuffer));
         if(!ModelsPrecacheStatic(sBuffer))
         {
             LogEvent(false, LogType_Fatal, LOG_CORE_EVENTS, LogModule_Humanclasses, "Model Validation", "Invalid model path. File not found: \"%s\"", sBuffer);
-        }
+        }*/
 
         // Load death sounds
         HumanGetSoundDeath(i, sBuffer, sizeof(sBuffer));
@@ -457,7 +458,7 @@ public int API_GetHumanClassArm(Handle isPlugin, const int iNumParams)
     
     // Initialize model char
     static char sModel[PLATFORM_MAX_PATH];
-    HumanGetArmModel(iD, sModel, sizeof(sModel));
+    // HumanGetArmModel(iD, sModel, sizeof(sModel));
 
     // Return on success
     return SetNativeString(2, sModel, maxLen);
@@ -840,6 +841,7 @@ stock void HumanGetModel(const int iD, char[] sModel, const int iMaxLen)
  * @param sModel            The string to return model in.
  * @param iMaxLen           The max length of the string.
  **/
+/*
 stock void HumanGetArmModel(const int iD, char[] sModel, const int iMaxLen)
 {
     // Gets array handle of human class at given index
@@ -847,7 +849,7 @@ stock void HumanGetArmModel(const int iD, char[] sModel, const int iMaxLen)
 
     // Gets human class arm model
     arrayHumanClass.GetString(HUMANCLASSES_DATA_ARM, sModel, iMaxLen);
-}
+}*/
 
 /**
  * Gets the view index of the human class.

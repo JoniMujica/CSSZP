@@ -178,7 +178,7 @@ void WeaponSDKInit(/*void*/) /// https://www.unknowncheats.me/forum/counterstrik
     fnInitSendPropOffset(g_iOffset_PlayerObserverMode, "CBasePlayer", "m_iObserverMode");
     fnInitSendPropOffset(g_iOffset_PlayerObserverTarget, "CBasePlayer", "m_hObserverTarget");
     fnInitSendPropOffset(g_iOffset_PlayerAttack, "CBasePlayer", "m_flNextAttack");
-    fnInitSendPropOffset(g_iOffset_PlayerArms, "CCSPlayer", "m_szArmsModel");
+    //fnInitSendPropOffset(g_iOffset_PlayerArms, "CCSPlayer", "m_szArmsModel");
     fnInitSendPropOffset(g_iOffset_PlayerAddonBits, "CCSPlayer", "m_iAddonBits");
     fnInitSendPropOffset(g_iOffset_ViewModelOwner, "CBaseViewModel", "m_hOwner");
     fnInitSendPropOffset(g_iOffset_ViewModelWeapon, "CBaseViewModel", "m_hWeapon");
@@ -793,12 +793,14 @@ public void WeaponSDKOnDeploy(const int clientIndex, const int weaponIndex)
     gClientData[clientIndex][Client_CustomWeapon] = 0;
     gClientData[clientIndex][Client_WeaponIndex] = INVALID_ENT_REFERENCE; /// Only viewmodel identification
     
+    /*
     // Gets survivor/human arm model
     static char sArm[PLATFORM_MAX_PATH];
     if(gClientData[clientIndex][Client_Survivor]) gCvarList[CVAR_SURVIVOR_ARM_MODEL].GetString(sArm, sizeof(sArm)); else HumanGetArmModel(gClientData[clientIndex][Client_HumanClass], sArm, sizeof(sArm));
     
     // Apply arm model
     if(strlen(sArm)) SetEntDataString(clientIndex, g_iOffset_PlayerArms, sArm, sizeof(sArm), true);
+    */
 }
 
 /**

@@ -95,7 +95,7 @@ enum CvarsList
     ConVar:CVAR_SURVIVOR_INF_AMMUNITION,
     ConVar:CVAR_SURVIVOR_PRICE_AMMUNITION,
     ConVar:CVAR_SURVIVOR_PLAYER_MODEL,
-    ConVar:CVAR_SURVIVOR_ARM_MODEL,
+    //ConVar:CVAR_SURVIVOR_ARM_MODEL,
     ConVar:CVAR_ZOMBIE_CLASS_MENU,
     ConVar:CVAR_ZOMBIE_FISRT_HEALTH,
     ConVar:CVAR_ZOMBIE_NIGHT_VISION,
@@ -401,7 +401,7 @@ void CvarsCreate(/*void*/)
     gCvarList[CVAR_SURVIVOR_INF_AMMUNITION]     = CreateConVar("zp_survivor_inf_ammunition",        "1",                                                               "Give unlimited amount of ammunition for survivors [0-disabled // 1-BP ammunition // 2-clip ammunition]");
     gCvarList[CVAR_SURVIVOR_PRICE_AMMUNITION]   = CreateConVar("zp_survivor_price_ammunition",      "1",                                                               "Clip price of the ammunition for survivors, if unlimited amount is off [0-disabled]");
     gCvarList[CVAR_SURVIVOR_PLAYER_MODEL]       = CreateConVar("zp_survivor_model",                 "models/player/custom_player/legacy/tm_phoenix_heavy.mdl",         "Player model. This model files/textures will be automatically precache");
-    gCvarList[CVAR_SURVIVOR_ARM_MODEL]          = CreateConVar("zp_survivor_arm",                   "models/player/custom_player/zombie/arms/male_arms.mdl",           "Arm skin model for standart weapons. This model files/textures will be automatically precache");
+    //gCvarList[CVAR_SURVIVOR_ARM_MODEL]          = CreateConVar("zp_survivor_arm",                   "models/player/custom_player/zombie/arms/male_arms.mdl",           "Arm skin model for standart weapons. This model files/textures will be automatically precache");
     
     // =========================== //
     //            Zombies          //
