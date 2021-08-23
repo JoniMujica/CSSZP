@@ -36,12 +36,13 @@
 enum CvarsList
 {
     ConVar:CVAR_SERVER_OCCULUSE,
-    ConVar:CVAR_SERVER_CLAMP,
+    //ConVar:CVAR_SERVER_CLAMP,
     ConVar:CVAR_SERVER_TEAM_BALANCE,
     ConVar:CVAR_SERVER_LIMIT_TEAMS,
-    ConVar:CVAR_SERVER_CASH_AWARD,
+    //ConVar:CVAR_SERVER_CASH_AWARD,
     ConVar:CVAR_SERVER_CASH_MAX,
     ConVar:CVAR_SERVER_FRIENDLY_FIRE,
+    /*
     ConVar:CVAR_SERVER_FRIENDLY_GRENADE,
     ConVar:CVAR_SERVER_FRIENDLY_BULLETS,
     ConVar:CVAR_SERVER_FRIENDLY_OTHER,
@@ -51,7 +52,7 @@ enum CvarsList
     ConVar:CVAR_SERVER_WARMUP_PERIOD,
     ConVar:CVAR_SERVER_GIVE_WEAPON,
     ConVar:CVAR_SERVER_GIVE_TASER,
-    ConVar:CVAR_SERVER_GIVE_BOMB,
+    ConVar:CVAR_SERVER_GIVE_BOMB,*/
     ConVar:CVAR_SERVER_ROUNDTIME_ZP,
     ConVar:CVAR_SERVER_ROUNDTIME_CS,
     //ConVar:CVAR_SERVER_ROUNDTIME_DE,
@@ -322,7 +323,7 @@ void CvarsCreate(/*void*/)
     gCvarList[CVAR_SERVER_TEAM_BALANCE]         = FindConVar("mp_autoteambalance"); 
     gCvarList[CVAR_SERVER_LIMIT_TEAMS]          = FindConVar("mp_limitteams");
     //gCvarList[CVAR_SERVER_CASH_AWARD]           = FindConVar("mp_playercashawards");
-    //gCvarList[CVAR_SERVER_CASH_MAX]             = FindConVar("mp_maxmoney");
+    gCvarList[CVAR_SERVER_CASH_MAX]             = FindConVar("mp_maxmoney");
     gCvarList[CVAR_SERVER_FRIENDLY_FIRE]        = FindConVar("mp_friendlyfire");
     /*gCvarList[CVAR_SERVER_FRIENDLY_GRENADE]     = FindConVar("ff_damage_reduction_grenade");
     gCvarList[CVAR_SERVER_FRIENDLY_BULLETS]     = FindConVar("ff_damage_reduction_bullets");
@@ -653,18 +654,19 @@ void CvarsCreate(/*void*/)
 void CvarsHook(/*void*/)
 {
     // Sets locked cvars to their locked value
-    gCvarList[CVAR_SERVER_CLAMP].IntValue = 0;
+    //gCvarList[CVAR_SERVER_CLAMP].IntValue = 0;
     gCvarList[CVAR_SERVER_TEAM_BALANCE].IntValue = 0;
     gCvarList[CVAR_SERVER_LIMIT_TEAMS].IntValue = 0;
-    gCvarList[CVAR_SERVER_CASH_AWARD].IntValue = 0;
+    //gCvarList[CVAR_SERVER_CASH_AWARD].IntValue = 0;
     gCvarList[CVAR_SERVER_FRIENDLY_FIRE].IntValue = 0;
+    /*
     gCvarList[CVAR_SERVER_BUY_ANYWHERE].IntValue = 0;
     gCvarList[CVAR_SERVER_WARMUP_TIME].IntValue = 0;
     gCvarList[CVAR_SERVER_WARMUP_PERIOD].IntValue = 0;
     gCvarList[CVAR_SERVER_GIVE_WEAPON].IntValue = 0;
     gCvarList[CVAR_SERVER_GIVE_TASER].IntValue = 1;
     gCvarList[CVAR_SERVER_GIVE_BOMB].IntValue = 1;
-    /*
+    
     gCvarList[CVAR_CT_DEFAULT_GRENADES].SetString("");
     gCvarList[CVAR_CT_DEFAULT_MELEE].SetString("");
     gCvarList[CVAR_CT_DEFAULT_SECONDARY].SetString("");
@@ -672,26 +674,28 @@ void CvarsHook(/*void*/)
     gCvarList[CVAR_T_DEFAULT_GRENADES].SetString("");
     gCvarList[CVAR_T_DEFAULT_MELEE].SetString("");
     gCvarList[CVAR_T_DEFAULT_SECONDARY].SetString("");
-    gCvarList[CVAR_T_DEFAULT_PRIMARY].SetString("");*/
+    gCvarList[CVAR_T_DEFAULT_PRIMARY].SetString("");
 
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_GRENADE], 0);
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_BULLETS], 0);
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_OTHER], 0);
     CvarsOnCheatSet(gCvarList[CVAR_SERVER_FRIENDLY_SELF], 0);
+    */
     
     // Hook locked cvars to prevent it from changing
-    HookConVarChange(gCvarList[CVAR_SERVER_CLAMP],            CvarsHookLocked);
+    //HookConVarChange(gCvarList[CVAR_SERVER_CLAMP],            CvarsHookLocked);
     HookConVarChange(gCvarList[CVAR_SERVER_TEAM_BALANCE],     CvarsHookLocked);
     HookConVarChange(gCvarList[CVAR_SERVER_LIMIT_TEAMS],      CvarsHookLocked);
-    HookConVarChange(gCvarList[CVAR_SERVER_CASH_AWARD],       CvarsHookLocked);
+    //HookConVarChange(gCvarList[CVAR_SERVER_CASH_AWARD],       CvarsHookLocked);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_FIRE],    CvarsHookLocked);
+    /*
     HookConVarChange(gCvarList[CVAR_SERVER_BUY_ANYWHERE],     CvarsHookLocked);
     HookConVarChange(gCvarList[CVAR_SERVER_WARMUP_TIME],      CvarsHookLocked);
     HookConVarChange(gCvarList[CVAR_SERVER_WARMUP_PERIOD],    CvarsHookLocked);
     HookConVarChange(gCvarList[CVAR_SERVER_GIVE_WEAPON],      CvarsHookLocked);    
     HookConVarChange(gCvarList[CVAR_SERVER_GIVE_TASER],       CvarsHookUnlocked);
     HookConVarChange(gCvarList[CVAR_SERVER_GIVE_BOMB],        CvarsHookUnlocked);
-    /*
+    
     HookConVarChange(gCvarList[CVAR_CT_DEFAULT_GRENADES],     CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_CT_DEFAULT_MELEE],        CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_CT_DEFAULT_SECONDARY],    CvarsHookLockedString);
@@ -700,11 +704,12 @@ void CvarsHook(/*void*/)
     HookConVarChange(gCvarList[CVAR_T_DEFAULT_MELEE],         CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_T_DEFAULT_SECONDARY],     CvarsHookLockedString);
     HookConVarChange(gCvarList[CVAR_T_DEFAULT_PRIMARY],       CvarsHookLockedString);
-    */
+    
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_GRENADE], CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_BULLETS], CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_OTHER],   CvarsHookLockedCheat);
     HookConVarChange(gCvarList[CVAR_SERVER_FRIENDLY_SELF],    CvarsHookLockedCheat);
+    */
     HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_ZP],     CvarsHookRoundTime);
     //HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_CS],     CvarsHookRoundTime);
     //HookConVarChange(gCvarList[CVAR_SERVER_ROUNDTIME_DE],     CvarsHookRoundTime);

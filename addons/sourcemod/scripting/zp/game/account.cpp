@@ -93,7 +93,7 @@ public void AccountOnClientUpdate(const int userID)
             if(gClientData[clientIndex][Client_AmmoPacks] > ACCOUNT_CASH_MAX)
             {
                 // Send a convar to client
-                gCvarList[CVAR_SERVER_CASH_AWARD].ReplicateToClient(clientIndex, "0");
+                //gCvarList[CVAR_SERVER_CASH_AWARD].ReplicateToClient(clientIndex, "0");
 
                 // Sets timer for player account HUD
                 delete gClientData[clientIndex][Client_AccountTimer];
@@ -102,7 +102,7 @@ public void AccountOnClientUpdate(const int userID)
             else
             {
                 // Send a convar to client
-                gCvarList[CVAR_SERVER_CASH_AWARD].ReplicateToClient(clientIndex, "1");
+                // gCvarList[CVAR_SERVER_CASH_AWARD].ReplicateToClient(clientIndex, "1");
                 
                 // Update client cash
                 SetEntData(clientIndex, g_iOffset_PlayerAccount, gClientData[clientIndex][Client_AmmoPacks], 4, true);
@@ -141,7 +141,7 @@ stock void AccountSetClientCash(const int clientIndex, int nAmmoPacks)
         if(gClientData[clientIndex][Client_AccountTimer] == INVALID_HANDLE)
         {
             // Send a convar to client
-            gCvarList[CVAR_SERVER_CASH_AWARD].ReplicateToClient(clientIndex, "0");
+            //gCvarList[CVAR_SERVER_CASH_AWARD].ReplicateToClient(clientIndex, "0");
   
             // Sets timer for player account HUD
             delete gClientData[clientIndex][Client_AccountTimer];
