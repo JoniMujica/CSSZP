@@ -210,7 +210,8 @@ public Action DamageOnTakeDamage(const int victimIndex, int &attackerIndex, int 
             if(gCvarList[CVAR_GAME_CUSTOM_HITGROUPS].BoolValue)
             {
                 // Validate hitgroup index
-                int iHitIndex = HitgroupToIndex(GetEntData(victimIndex, g_iOffset_PlayerHitGroup));
+                //int iHitIndex = HitgroupToIndex(GetEntData(victimIndex, g_iOffset_PlayerHitGroup));
+                int iHitIndex = HitgroupToIndex(GetEntData(victimIndex, 2));
                 if(iHitIndex != -1)
                 {
                     knockbackAmount *= HitgroupsGetKnockback(iHitIndex);
